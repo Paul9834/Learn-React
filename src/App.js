@@ -3,7 +3,7 @@ import './App.css';
 import BannerImage from "./components/Banner";
 import UsersTable from "./components/UsersTable";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+require('typeface-roboto')
 
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
             <header className="App-header">
                 <BannerImage/>
                 <div>
-                    <h1>Kevin Paul Montealegre Melo</h1>
-                    <h1>Desarrollador de Aplicaciones Móviles</h1>
+                    <h1>Ranking GoPoli</h1>
+                    <br></br>
                 </div>
                 <UsersTable/>
             </header>

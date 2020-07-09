@@ -50,14 +50,14 @@ class UsersTable extends React.Component {
                 <TableHead>
                 <TableRow>
                     <TableCell align="center">Posición</TableCell>
-                    <TableCell align="center">Nick</TableCell>
-                    <TableCell align="center">Steps</TableCell>
+                    <TableCell align="center">Nombre de Usuario</TableCell>
+                    <TableCell align="center"># de Pasos</TableCell>
                 </TableRow>
                 </TableHead>
                 <TableBody> {
-                this.state.data.map((photo,index) => {
-                        return <User key={index} steps={photo.usernameUser}
-                                     usernameUser={photo.steps} position={index + 1}/> })}
+                this.state.data.map((user,index) => {
+                        return <User key={index} steps={user.usernameUser}
+                                     usernameUser={user.steps} position={index + 1}/> })}
                 </TableBody>
                 </Table>
             </TableContainer>
