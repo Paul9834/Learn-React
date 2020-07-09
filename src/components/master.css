@@ -7,6 +7,10 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.table {
+  minWidth: 650,
+}
+
 
 h4, h5, h6 {
   margin: 0.3rem auto;

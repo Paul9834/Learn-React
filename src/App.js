@@ -1,7 +1,10 @@
 import React from 'react';
 import './App.css';
 import BannerImage from "./components/Banner";
-import PhotoEntry from "./components/PhotoEntry";
+import UsersTable from "./components/UsersTable";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function App() {
     return (
@@ -12,8 +15,7 @@ function App() {
                     <h1>Kevin Paul Montealegre Melo</h1>
                     <h1>Desarrollador de Aplicaciones Móviles</h1>
                 </div>
-                <PhotoEntry src="1.jpg" location="Mac Book Pro" caption="Programando en iOS"/>
-
+                <UsersTable/>
             </header>
         </div>
     );

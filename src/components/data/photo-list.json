@@ -1,0 +1,28 @@
+{
+  "itemlist" :
+  [
+    {
+      "src"      : "1.jpg",
+      "caption"  : "The Heart of Europe",
+      "location" : "Berlin, Germany"
+    },
+
+    {
+      "src"      : "2.jpg",
+      "caption"  : "Southern California",
+      "location" : "Beverly Hills, USA"
+    },
+
+    {
+      "src"      : "3.jpg",
+      "caption"  : "Autumn",
+      "location" : "Toronto, Canada"
+    },
+
+    {
+      "src"      : "4.jpg",
+      "caption"  : "Deep Thought",
+      "location" : "Kona, Hawaii, USA"
+    }
+  ]
+}
