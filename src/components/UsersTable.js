@@ -20,7 +20,7 @@ class UsersTable extends React.Component {
         }
     }
 
-    async componentDidMount() {
+     componentDidMount() {
         fetch('https://gopolitest.herokuapp.com/ranking')
             .then(response => response.json())
             .then(json => {
